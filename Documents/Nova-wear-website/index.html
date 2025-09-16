@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova-Wear - Sustainable Fashion Forward</title>
+    <meta name="description" content="Discover Nova-Wear's collection of sustainable, stylish clothing designed for the modern lifestyle.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Nova-Wear</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link cart-btn">Cart (<span id="cart-count">0</span>)</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Crafted with care</div>
+                <h1 class="hero-title">Fashion That Fits <span class="accent">Your Life</span></h1>
+                <p class="hero-description">
+                    Discover our curated collection of sustainable, stylish clothing designed for the modern lifestyle. 
+                    Every piece is crafted with care for both you and the planet.
+                </p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary">Shop Collection</a>
+                    <a href="#about" class="btn btn-secondary">Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop" alt="Classic White Shirt">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic White Shirt</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="btn btn-small add-to-cart" data-product='{"id": 1, "name": "Classic White Shirt", "price": 89.99, "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop" alt="Denim Jacket">
+                    </div>
+                    <div class="product-info">
+                        <h3>Eco Denim Jacket</h3>
+                        <p class="product-price">$149.99</p>
+                        <button class="btn btn-small add-to-cart" data-product='{"id": 2, "name": "Eco Denim Jacket", "price": 149.99, "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop" alt="Summer Dress">
+                    </div>
+                    <div class="product-info">
+                        <h3>Summer Floral Dress</h3>
+                        <p class="product-price">$119.99</p>
+                        <button class="btn btn-small add-to-cart" data-product='{"id": 3, "name": "Summer Floral Dress", "price": 119.99, "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Fashion with Purpose</h2>
+                    <p>
+                        Born from a desire to create clothing that doesn't compromise on style or sustainability, 
+                        Nova-Wear represents a new generation of fashion that cares. Every piece in our collection 
+                        is thoughtfully designed and responsibly made.
+                    </p>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h4>🌱 Sustainable</h4>
+                            <p>Eco-friendly materials and ethical production</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>🚀 Fast Delivery</h4>
+                            <p>Quick shipping to your doorstep</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>✨ Premium Quality</h4>
+                            <p>Durable, comfortable, and timeless designs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nova-Wear</h3>
+                    <p>Sustainable fashion for the modern lifestyle</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nova-Wear. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
